@@ -46,3 +46,5 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
+#Path for VSCode in Windows
+PATH=$PATH:"/mnt/c/Users/kierian/AppData/Local/Programs/Microsoft VS Code/bin"
