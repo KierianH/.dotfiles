@@ -1,25 +1,39 @@
-First clone this repository in a directory called ~/.dotfiles
-git clone https://github.com/kierianrocks/.dotfiles
+### Instal github CLI
 
-Then use GNU STOW to create symbolic links
-stow ~/dotfiles
+```curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg```
 
-Make zsh default shell
-chsh -s $(which zsh)
+```echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null```
 
-Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```sudo apt update```
 
-Push
-First add files to commit
-git add {files}
+```sudo apt install gh```
 
-Commit files
-git commit -am {message}
+### Authenticate with github CLI <br>
 
-push files
-git push
+```gh auth login```
 
-Pull
-Pull from repo
-git pull
+### Setup
+First clone this repository in a home directory <br>
+```yadm clone https://github.com/kierianrocks/.dotfiles```
+
+Make zsh default shell <br>
+```chsh -s $(which zsh)```
+
+Install oh-my-zsh <br>
+```sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"```
+
+### Push
+Check to see what you've changed <br>
+```yadm status```
+
+add files to commit <br>
+```yadm add {files}```
+
+Commit files <br>
+```yadm commit -am {message}```
+
+push files <br>
+```yadm push```
+
+### Pull from repo <br>
+```yadm pull```
