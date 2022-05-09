@@ -48,3 +48,6 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 #Path for VSCode in Windows
 PATH=$PATH:"/mnt/c/Users/kierian/AppData/Local/Programs/Microsoft VS Code/bin"
+
+#Adds Library of custom functions to the ZSH shell
+. /home/$USER/UbuntuRepo/Bash_Scripts/FunctionLibrary/BashLib
