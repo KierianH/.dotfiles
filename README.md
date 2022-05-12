@@ -13,7 +13,12 @@
 ```gh auth login```
 
 ### Setup
-First clone this repository in a home directory <br>
+Install zsh <br>
+```sudo apt install zsh```
+Install yadm <br>
+```sudo apt install yadm```
+
+Clone this repository in a home directory <br>
 ```yadm clone https://github.com/kierianrocks/.dotfiles```
 
 Make zsh default shell <br>
