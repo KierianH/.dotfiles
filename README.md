@@ -13,6 +13,8 @@
 ```gh auth login```
 
 ### Setup
+Install zsh <br>
+```sudo apt install zsh```
 Install yadm <br>
 ```sudo apt install yadm```
 
