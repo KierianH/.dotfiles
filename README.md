@@ -13,6 +13,9 @@
 ```gh auth login```
 
 ### Setup
+Install yadm
+```sudo apt install yadm```
+
 First clone this repository in a home directory <br>
 ```yadm clone https://github.com/kierianrocks/.dotfiles```
 
