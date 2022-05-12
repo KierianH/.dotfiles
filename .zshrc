@@ -51,3 +51,6 @@ PATH=$PATH:"/mnt/c/Users/kierian/AppData/Local/Programs/Microsoft VS Code/bin"
 
 #Adds Library of custom functions to the ZSH shell
 . /home/$USER/UbuntuRepo/Bash_Scripts/FunctionLibrary/BashLib
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

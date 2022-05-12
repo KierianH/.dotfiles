@@ -118,3 +118,4 @@ export PATH="$PATH:/home/kierian/.dotnet/"
 
 #Adds my BashLibrary of function to the BASH shell
 . /home/$USER/UbuntuRepo/Bash_Scripts/FunctionLibrary/BashLib
+
