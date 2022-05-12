@@ -16,7 +16,7 @@
 Install yadm <br>
 ```sudo apt install yadm```
 
-First clone this repository in a home directory <br>
+Clone this repository in a home directory <br>
 ```yadm clone https://github.com/kierianrocks/.dotfiles```
 
 Make zsh default shell <br>
