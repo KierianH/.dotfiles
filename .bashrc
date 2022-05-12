@@ -119,3 +119,7 @@ export PATH="$PATH:/home/kierian/.dotnet/"
 #Adds my BashLibrary of function to the BASH shell
 . /home/$USER/UbuntuRepo/Bash_Scripts/FunctionLibrary/BashLib
 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+pyenv virtualenvwrapper
