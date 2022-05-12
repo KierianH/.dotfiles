@@ -13,7 +13,7 @@
 ```gh auth login```
 
 ### Setup
-Install yadm
+Install yadm <br>
 ```sudo apt install yadm```
 
 First clone this repository in a home directory <br>
